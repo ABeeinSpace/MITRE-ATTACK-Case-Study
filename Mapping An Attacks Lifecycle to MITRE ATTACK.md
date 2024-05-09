@@ -58,3 +58,6 @@ Using the Secure Copy utility, the attacker was able to grab the password databa
 If the defenders notice that the password database has been leaked, through file access logs or otherwise, they should immediately invalidate passwords for highly privileged accounts (highly-privileged accounts may include the root user itself and any account that has `sudoers` access at a minimum). 
 
 Credentials like SSH keys and other cryptographic keys should be rotated and the system checked for accounts that should not be present. If found, such accounts must be disabled or removed to prevent the attacker from being able to jump right back onto the system. 
+
+[^1]: [Lockheed Martin Cyber Kill Chain](https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html)
+[^2]: [MITRE ATT&CK](https://attack.mitre.org/)
